@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/saasoptics"/>
+
+    <TextView android:text="Good Luck, Katie!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="51dp"
+        android:fontFamily="sans-serif-black"
+        android:textColor="#0093BD"/>
+
+    <TextView android:text="I love you!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:textSize="89dp"
+        android:fontFamily="sans-serif-black"
+        android:textColor="#99CB45"/>
+
+</RelativeLayout>
